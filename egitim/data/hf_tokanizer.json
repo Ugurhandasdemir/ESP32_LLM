@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 64,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<unk>": 0,
+      "'": 1,
+      "(": 2,
+      ")": 3,
+      ",": 4,
+      "-": 5,
+      ".": 6,
+      "2": 7,
+      "3": 8,
+      "B": 9,
+      "C": 10,
+      "D": 11,
+      "E": 12,
+      "F": 13,
+      "G": 14,
+      "K": 15,
+      "M": 16,
+      "O": 17,
+      "P": 18,
+      "S": 19,
+      "W": 20,
+      "Y": 21,
+      "a": 22,
+      "b": 23,
+      "c": 24,
+      "d": 25,
+      "e": 26,
+      "f": 27,
+      "g": 28,
+      "h": 29,
+      "i": 30,
+      "j": 31,
+      "k": 32,
+      "l": 33,
+      "m": 34,
+      "n": 35,
+      "o": 36,
+      "p": 37,
+      "r": 38,
+      "s": 39,
+      "t": 40,
+      "u": 41,
+      "v": 42,
+      "y": 43,
+      "z": 44,
+      "â": 45,
+      "ç": 46,
+      "ö": 47,
+      "ü": 48,
+      "ğ": 49,
+      "ı": 50,
+      "ş": 51,
+      "le": 52,
+      "ir": 53,
+      "de": 54,
+      "in": 55,
+      "ar": 56,
+      "an": 57,
+      "er": 58,
+      "bir": 59,
+      "en": 60,
+      "ve": 61,
+      "lar": 62,
+      "ır": 63
+    },
+    "merges": [
+      [
+        "l",
+        "e"
+      ],
+      [
+        "i",
+        "r"
+      ],
+      [
+        "d",
+        "e"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "a",
+        "r"
+      ],
+      [
+        "a",
+        "n"
+      ],
+      [
+        "e",
+        "r"
+      ],
+      [
+        "b",
+        "ir"
+      ],
+      [
+        "e",
+        "n"
+      ],
+      [
+        "v",
+        "e"
+      ],
+      [
+        "l",
+        "ar"
+      ],
+      [
+        "ı",
+        "r"
+      ]
+    ]
+  }
+}
